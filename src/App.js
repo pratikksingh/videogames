@@ -45,7 +45,7 @@ function App() {
             return (
               <div className="game-items" key={key}>
                 <h3>{value.external}</h3>
-                <img src={value.thumb} />
+                <img src={value.thumb} alt="videogame_image" />
                 <p>Price: ${value.cheapest}</p>
               </div>
             );
